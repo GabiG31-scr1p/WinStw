@@ -108,10 +108,10 @@ function Update-ProgressIndicator {
     param (
         [int]$currentScreen
     )
-    $ProgressStep1.Fill = if ($currentScreen -ge 1) { "#FFDE00" } else { "#FFEB99" }
-    $ProgressStep2.Fill = if ($currentScreen -ge 2) { "#FFDE00" } else { "#FFEB99" }
-    $ProgressStep3.Fill = if ($currentScreen -ge 3) { "#FFDE00" } else { "#FFEB99" }
-    $ProgressStep4.Fill = if ($currentScreen -ge 4) { "#FFDE00" } else { "#FFEB99" }
+    $ProgressStep1.Fill = if ($currentScreen -ge 1) { "#00e5ff" } else { "#8dedf7" }
+    $ProgressStep2.Fill = if ($currentScreen -ge 2) { "#00e5ff" } else { "#8dedf7" }
+    $ProgressStep3.Fill = if ($currentScreen -ge 3) { "#00e5ff" } else { "#8dedf7" }
+    $ProgressStep4.Fill = if ($currentScreen -ge 4) { "#00e5ff" } else { "#8dedf7" }
 }
 
 if ($readerOperationSuccessful) {
