@@ -40,7 +40,7 @@ if ($configUrl -match "https://raw.githubusercontent.com/GabiG31-scr1p/WinStw/([
     Write-Host "Branch detected from Configuration URL: $currentBranch" -ForegroundColor Green
 }
 else {
-    Write-Host "Unable to detect branch from Configuration URL. Using fallback." -ForegroundColor Yellow
+    Write-Host "Unable to detect branch from Configuration URL. Using fallback." -ForegroundColor Blue
 }
 
 Write-Host "Using branch: $currentBranch" -ForegroundColor Cyan
