@@ -756,21 +756,21 @@
                     Width="153"
                     Height="5"
                     Margin="5,0"
-                    Fill="#FFEB99" />
+                    Fill="#8dedf7" />
                 <!--  Step 3  -->
                 <Rectangle
                     x:Name="ProgressStep3"
                     Width="153"
                     Height="5"
                     Margin="5,0"
-                    Fill="#FFEB99" />
+                    Fill="#8dedf7" />
                 <!--  Step 4  -->
                 <Rectangle
                     x:Name="ProgressStep4"
                     Width="153"
                     Height="5"
                     Margin="5,0"
-                    Fill="#FFEB99" />
+                    Fill="#8dedf7" />
             </StackPanel>
         </Grid>
     </Border>
